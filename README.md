@@ -1,31 +1,32 @@
 # Scanner Analyzer
 
-**Scanner Analyzer** — это инструмент для анализа сетевого трафика и сканирования портов, написанный на C#. Проект позволяет обнаруживать активные устройства в сети, проверять открытые порты и собирать базовую информацию о них.
+**Scanner Analyzer** — это консольный инструмент для автоматизированного локального аудита безопасности операционной системы **Windows**.
 
 ---
 
-## 📦 Установка и запуск
+## Установка и запуск
 
 ### Требования
 - Runtime .NET 10+
-- Visual Studio 2026
-- Rider 2026.1
+- *Visual Studio 2026* / *Rider 2026.1* / *Visual Studio Code* (с установленными зависимостями)
+
+---
 
 ### Сборка и запуск
 
-1. Клонируй репозиторий:
-```bash
+1. Клонирование репозитория:
+```
 git clone https://github.com/TrapMonster-prog/Scanner-analyzer.git
 cd Scanner-analyzer
 ```
-2. Открой решение (Scanner-analyzer.sln) в Visual Studio или Rider 
+2. Открытие решения (*Scanner-analyzer.sln* или *Scanner-analyzer.csproj*)
 
-3. Собери проект:
-В Visual Studio: Build → Build Solution (Ctrl+Shift+B) или через командную строку / терминал / PowerShell:
+3. Сборка проекта:
+В Visual Studio вкладка *Собрать*, далее в выпадающем контексном меню *Собрать решение* или через командную строку / терминал / PowerShell:
 ```
 dotnet build
 ```
-4. Запусти приложение:
+4. Запуск сканера:
 ```
 dotnet run
 ```
