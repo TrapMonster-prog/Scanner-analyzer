@@ -9,7 +9,6 @@
 ### Требования
 - Runtime .NET 10+
 - *Visual Studio 2026* / *Rider 2026.1* / *Visual Studio Code* (с установленными зависимостями)
----
 
 ### Сборка и запуск
 
@@ -39,6 +38,3 @@ dotnet run
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
   <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio"/>
 </p>
-
----
-
