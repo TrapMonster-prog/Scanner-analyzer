@@ -7,7 +7,7 @@
 ## Установка и запуск
 
 ### Требования
-- Runtime .NET 10+
+- Runtime .NET 10+ (https://dotnet.microsoft.com/en-us/download/dotnet/runtime-desktop-10.0.9-windows-x64-installer)
 - *Visual Studio 2026* / *Rider 2026.1* / *Visual Studio Code* (с установленными зависимостями)
 ---
 
