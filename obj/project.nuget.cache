@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "O+6SLsAZaj8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kavabang9\\source\\repos\\Scanner-analyzer\\Scanner-analyzer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.codedom\\10.0.8\\system.codedom.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.8\\system.configuration.configurationmanager.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.8\\system.diagnostics.eventlog.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.directoryservices\\10.0.8\\system.directoryservices.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.directoryservices.accountmanagement\\10.0.8\\system.directoryservices.accountmanagement.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.directoryservices.protocols\\10.0.8\\system.directoryservices.protocols.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.management\\10.0.8\\system.management.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.8\\system.security.cryptography.protecteddata.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.serviceprocess.servicecontroller\\10.0.8\\system.serviceprocess.servicecontroller.10.0.8.nupkg.sha512",
+    "C:\\Users\\kavabang9\\.nuget\\packages\\system.text.encoding.codepages\\10.0.8\\system.text.encoding.codepages.10.0.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Encoding.CodePages не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "C:\\Users\\kavabang9\\source\\repos\\Scanner-analyzer\\Scanner-analyzer.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\kavabang9\\source\\repos\\Scanner-analyzer\\Scanner-analyzer.csproj",
+      "libraryId": "System.Text.Encoding.CodePages",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
