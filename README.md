@@ -8,7 +8,6 @@
 
 ### Требования
 - Runtime .NET 10+
-- or
 - *Visual Studio 2026* / *Rider 2026.1* / *Visual Studio Code* (с установленными зависимостями)
 
 ### Сборка и запуск
