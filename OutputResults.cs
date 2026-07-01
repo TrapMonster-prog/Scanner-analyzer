@@ -64,8 +64,7 @@ namespace Scanner_analyzer
         public void Start()
         {
             ConsoleEncoding.Apply();
-            Console.Title = "Сканер безопасности ОС";
-            Console.WriteLine("Сканер безопасности операционной системы (Windows 8)");
+            Console.Title = "Сканер безопасности операционной системы Windows";
             var userChecker = new InformationUsers();
             userChecker.Collect();
             userChecker.OutputInformation();
