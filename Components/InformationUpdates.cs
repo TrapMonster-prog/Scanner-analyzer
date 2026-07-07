@@ -13,8 +13,6 @@ namespace Scanner_analyzer.Components
         public void Collect()
         {
             updates.Clear();
-
-            // Определяем версию ОС
             bool isWindows8OrNewer = IsWindows8OrNewer();
 
             if (isWindows8OrNewer)
@@ -42,7 +40,6 @@ namespace Scanner_analyzer.Components
                         string version = os["Version"]?.ToString();
                         if (!string.IsNullOrEmpty(version))
                         {
-                            // Версия 6.2 = Windows 8, 6.3 = 8.1, 10.0 = 10/11
                             return Version.TryParse(version, out var ver) && ver.Major >= 10 ||
                                    (ver.Major == 6 && ver.Minor >= 2);
                         }
@@ -72,7 +69,7 @@ namespace Scanner_analyzer.Components
 
                 if (proc.ExitCode != 0)
                 {
-                    updates.Add("Ошибка DISM. Возможно, нет прав администратора.");
+                    updates.Add("Ошибка DISM!");
                     return;
                 }
 
