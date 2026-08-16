@@ -14,12 +14,8 @@ namespace Scanner_analyzer.Components
         {
             try
             {
-                // Вернет строку вида "Microsoft Windows 10.0.19045" или "Microsoft Windows 11..."
                 Caption = RuntimeInformation.OSDescription;
-
-                // Получаем чистую версию ядра
                 Version = Environment.OSVersion.Version.ToString();
-
                 Architecture = Environment.Is64BitOperatingSystem ? "64-bit" : "32-bit";
             }
             catch
