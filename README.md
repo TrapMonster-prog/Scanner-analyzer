@@ -14,9 +14,8 @@
 git clone https://github.com/TrapMonster-prog/Scanner-analyzer.git
 cd Scanner-analyzer
 ```
-2. Открытие решения (*Scanner-analyzer.sln* или *Scanner-analyzer.csproj*)
 
-3. Сборка проекта:
+2. Сборка проекта:
 - В Visual Studio вкладка "*Собрать*", далее в выпадающем контексном меню "*Собрать решение*"
 - Или с помощью командной строки / терминала / PowerShell:
 ```
