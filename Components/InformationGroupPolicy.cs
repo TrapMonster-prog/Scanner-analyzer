@@ -66,7 +66,7 @@ namespace Scanner_analyzer.Components
         }
         public void OutputInformation()
         {
-            Console.WriteLine("\n12. Групповые политики");
+            Console.WriteLine("\n Групповые политики");
             Console.WriteLine(gpOutput);
         }
     }
