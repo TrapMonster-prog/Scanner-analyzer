@@ -65,7 +65,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n10. Анализ файловой системы и прав доступа");
+            Console.WriteLine("\n Анализ файловой системы и прав доступа");
             foreach (var line in fileSystemInfo)
             {
                 Console.WriteLine(line);
