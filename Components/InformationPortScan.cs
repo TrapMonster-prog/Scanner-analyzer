@@ -106,7 +106,7 @@ namespace Scanner_analyzer.Components
         }
         public void OutputInformation()
         {
-            Console.WriteLine("\n15. Обнаружение сканирования портов");
+            Console.WriteLine("\nОбнаружение сканирования портов");
             Console.WriteLine(new string('-', 60));
 
             foreach (var item in suspicious)
