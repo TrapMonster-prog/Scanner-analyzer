@@ -81,7 +81,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n Дополнительные параметры безопасности");
+            Console.WriteLine("\nДополнительные параметры безопасности");
             foreach (var info in advancedInfo)
                 Console.WriteLine(info);
         }
