@@ -176,7 +176,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n3. Установленные обновления безопасности");
+            Console.WriteLine("\nУстановленные обновления безопасности");
             if (updates.Count == 0)
                 Console.WriteLine("Обновления не найдены или недоступны.");
             else
