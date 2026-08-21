@@ -44,7 +44,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n Члены группы «Администраторы»");
+            Console.WriteLine("\nЧлены группы «Администраторы»");
             if (adminUsers.Count == 0)
                 Console.WriteLine("Не удалось получить список администраторов.");
             else
