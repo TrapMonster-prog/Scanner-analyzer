@@ -1,25 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Management;
+
 namespace Scanner_analyzer.Components
 {
     public class InformationUpdates : IMethods
     {
         private List<string> updates = new List<string>();
+
         public void Collect()
         {
             updates.Clear();
             bool isWindows8OrNewer = IsWindows8OrNewer();
 
             if (isWindows8OrNewer)
+            {
                 CollectUpdatesViaDism();
+            }
             else
+            {
                 CollectUpdatesViaWmi();
+            }
+
             if (updates.Count == 0)
                 updates.Add("Обновления не обнаружены или недоступны для чтения.");
         }
+
         private bool IsWindows8OrNewer()
         {
             try

@@ -117,18 +117,18 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n2. Название узла, рабочей группы/домена");
-            Console.WriteLine($"Имя компьютера: {Hostname}");
+            Console.WriteLine("\nНазвание узла, рабочей группы/домена");
+            Console.WriteLine($"[Имя компьютера] {Hostname}");
 
             if (!string.IsNullOrEmpty(Domain))
             {
-                Console.WriteLine($"Статус сети:   Компьютер находится в домене");
-                Console.WriteLine($"Домен:         {Domain}");
+                Console.WriteLine($"[Статус сети]   Компьютер находится в домене");
+                Console.WriteLine($"[Домен]         {Domain}");
             }
             else
             {
-                Console.WriteLine($"Статус сети:   Компьютер в рабочей группе");
-                Console.WriteLine($"Рабочая группа: {Workgroup}");
+                Console.WriteLine($"[Статус сети]   Компьютер в рабочей группе");
+                Console.WriteLine($"[Рабочая группа] {Workgroup}");
             }
         }
     }

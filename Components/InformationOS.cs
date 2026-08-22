@@ -1,5 +1,4 @@
-﻿using System.Management;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 namespace Scanner_analyzer.Components
 {
@@ -9,7 +8,6 @@ namespace Scanner_analyzer.Components
         public string? Version { get; private set; }
         public string? Architecture { get; private set; }
         public string? ServicePack { get; private set; }
-
         public void Collect()
         {
             try
@@ -31,13 +29,13 @@ namespace Scanner_analyzer.Components
         public void OutputInformation()
         {
             Console.WriteLine("\nИнформация об операционной системе");
-            Console.WriteLine($"ОС: {Caption}");
-            Console.WriteLine($"Версия ядра: {Version}");
-            Console.WriteLine($"Разрядность: {Architecture}");
+            Console.WriteLine($"[ОС] {Caption}");
+            Console.WriteLine($"[Версия ядра] {Version}");
+            Console.WriteLine($"[Разрядность] {Architecture}");
 
             if (!string.IsNullOrWhiteSpace(ServicePack))
             {
-                Console.WriteLine($"Service Pack: {ServicePack}");
+                Console.WriteLine($"[Service Pack] {ServicePack}");
             }
         }
     }

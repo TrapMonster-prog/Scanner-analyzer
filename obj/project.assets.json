@@ -2,7 +2,7 @@
   "version": 4,
   "targets": {
     "net10.0": {
-      "System.CodeDom/10.0.8": {
+      "System.CodeDom/10.0.11": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.CodeDom.dll": {
@@ -18,11 +18,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Configuration.ConfigurationManager/10.0.8": {
+      "System.Configuration.ConfigurationManager/10.0.11": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "10.0.8",
-          "System.Security.Cryptography.ProtectedData": "10.0.8"
+          "System.Diagnostics.EventLog": "10.0.11",
+          "System.Security.Cryptography.ProtectedData": "10.0.11"
         },
         "compile": {
           "lib/net10.0/System.Configuration.ConfigurationManager.dll": {
@@ -38,7 +38,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Diagnostics.EventLog/10.0.8": {
+      "System.Diagnostics.EventLog/10.0.11": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.Diagnostics.EventLog.dll": {
@@ -64,7 +64,7 @@
           }
         }
       },
-      "System.DirectoryServices/10.0.8": {
+      "System.DirectoryServices/10.0.11": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.DirectoryServices.dll": {
@@ -86,12 +86,12 @@
           }
         }
       },
-      "System.DirectoryServices.AccountManagement/10.0.8": {
+      "System.DirectoryServices.AccountManagement/10.0.11": {
         "type": "package",
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "10.0.8",
-          "System.DirectoryServices": "10.0.8",
-          "System.DirectoryServices.Protocols": "10.0.8"
+          "System.Configuration.ConfigurationManager": "10.0.11",
+          "System.DirectoryServices": "10.0.11",
+          "System.DirectoryServices.Protocols": "10.0.11"
         },
         "compile": {
           "lib/net10.0/System.DirectoryServices.AccountManagement.dll": {
@@ -113,7 +113,7 @@
           }
         }
       },
-      "System.DirectoryServices.Protocols/10.0.8": {
+      "System.DirectoryServices.Protocols/10.0.11": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.DirectoryServices.Protocols.dll": {
@@ -143,10 +143,10 @@
           }
         }
       },
-      "System.Management/10.0.8": {
+      "System.Management/10.0.11": {
         "type": "package",
         "dependencies": {
-          "System.CodeDom": "10.0.8"
+          "System.CodeDom": "10.0.11"
         },
         "compile": {
           "lib/net10.0/System.Management.dll": {
@@ -168,7 +168,7 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/10.0.8": {
+      "System.Security.Cryptography.ProtectedData/10.0.11": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -184,10 +184,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.ServiceProcess.ServiceController/10.0.8": {
+      "System.ServiceProcess.ServiceController/10.0.11": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "10.0.8"
+          "System.Diagnostics.EventLog": "10.0.11"
         },
         "compile": {
           "lib/net10.0/System.ServiceProcess.ServiceController.dll": {
@@ -208,36 +208,14 @@
             "rid": "win"
           }
         }
-      },
-      "System.Text.Encoding.CodePages/10.0.8": {
-        "type": "package",
-        "compile": {
-          "lib/net10.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net10.0/_._": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net10.0/_._": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "System.CodeDom/10.0.8": {
-      "sha512": "23AxxQYf5rjSmsawFw8kCVLRvvCIKMCnZWnRzBcHkzwsBra5eTv4k88BV6fEN+f3FVHO7PneZj3LOEyQnnPhTA==",
+    "System.CodeDom/10.0.11": {
+      "sha512": "v40pNeBoZTYsiVxz+PzyZmmIr2JIhpK4VsFpQqZSZCXa51PDlNXIN2ESm8kDU0voZYVfLhxF9HvmBsxCJmkiRg==",
       "type": "package",
-      "path": "system.codedom/10.0.8",
+      "path": "system.codedom/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -258,15 +236,15 @@
         "lib/net9.0/System.CodeDom.xml",
         "lib/netstandard2.0/System.CodeDom.dll",
         "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.10.0.8.nupkg.sha512",
+        "system.codedom.10.0.11.nupkg.sha512",
         "system.codedom.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Configuration.ConfigurationManager/10.0.8": {
-      "sha512": "QG+HHwJjLyUiRuA9axr5pDqHAxboo7FXCTRakxMABE9CUAUij/tsd/MsgQPJUEppkf+YBLT+F/P/wKIVCAIcNg==",
+    "System.Configuration.ConfigurationManager/10.0.11": {
+      "sha512": "vFA8K0xj520MnLp+zkpTmLc3LOGUhkIDxHvhfm8Cr4b+ZVVeAXnfe1+2oixuITbsZfr4ALcU2NrAqQKhooX9yw==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/10.0.8",
+      "path": "system.configuration.configurationmanager/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -287,15 +265,15 @@
         "lib/net9.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.10.0.8.nupkg.sha512",
+        "system.configuration.configurationmanager.10.0.11.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.EventLog/10.0.8": {
-      "sha512": "+Ro7WgIom+BDNH+YhTuZKL6QJ0ctfOpTyfUG/h3aU5KwXt3OaNf0wYWrTvoBUj+34Dy5V8dN9yCco1hAJQ4txw==",
+    "System.Diagnostics.EventLog/10.0.11": {
+      "sha512": "QTXEoQBzz00SFWbo7nAg1Ogd4f99lwqcO9uAJ7MYSLEUR28f6As32QktrqG2Fr9cfAfd1GjLyGYspE7Ipj7P6w==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/10.0.8",
+      "path": "system.diagnostics.eventlog/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -325,15 +303,15 @@
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.10.0.8.nupkg.sha512",
+        "system.diagnostics.eventlog.10.0.11.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.DirectoryServices/10.0.8": {
-      "sha512": "c3Smi0PEGS7QHgm/rHwMp8h1pNp4NeHCnUYuQ0MKYA9zekNZKFB2LGFstt18M4lwXVA2K2+fOAjqOlkfZinlFg==",
+    "System.DirectoryServices/10.0.11": {
+      "sha512": "kj7evAu1OcxBg2KOXWDgbLt12100t+1rlKk6M9/F/lK1NF68me6iQ/x9rJ8xEEt7AtVj4lMUFD/nr6N5zcQBKw==",
       "type": "package",
-      "path": "system.directoryservices/10.0.8",
+      "path": "system.directoryservices/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -357,15 +335,15 @@
         "runtimes/win/lib/net8.0/System.DirectoryServices.xml",
         "runtimes/win/lib/net9.0/System.DirectoryServices.dll",
         "runtimes/win/lib/net9.0/System.DirectoryServices.xml",
-        "system.directoryservices.10.0.8.nupkg.sha512",
+        "system.directoryservices.10.0.11.nupkg.sha512",
         "system.directoryservices.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.DirectoryServices.AccountManagement/10.0.8": {
-      "sha512": "WAfEB0RPzfxkTS1jt+rTC+XzjkzwRcKTqttgcQf0Bix4qomnbtU4iSEslXddz1wFA9vIB2HMaTW5IecpeywNBQ==",
+    "System.DirectoryServices.AccountManagement/10.0.11": {
+      "sha512": "V3VAr0P2K1S7PFntkfjqTDD6UsqSyXbfzc/J6dSOU9mYiOVtlmcvdZBev7iz4WcNKU2AI8WQp5CwH3TI99pdzQ==",
       "type": "package",
-      "path": "system.directoryservices.accountmanagement/10.0.8",
+      "path": "system.directoryservices.accountmanagement/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -389,15 +367,15 @@
         "runtimes/win/lib/net8.0/System.DirectoryServices.AccountManagement.xml",
         "runtimes/win/lib/net9.0/System.DirectoryServices.AccountManagement.dll",
         "runtimes/win/lib/net9.0/System.DirectoryServices.AccountManagement.xml",
-        "system.directoryservices.accountmanagement.10.0.8.nupkg.sha512",
+        "system.directoryservices.accountmanagement.10.0.11.nupkg.sha512",
         "system.directoryservices.accountmanagement.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.DirectoryServices.Protocols/10.0.8": {
-      "sha512": "VmFO1CBCUvWu9cV2XQSeKXRW2Gn76oZmuhhOk7GPDIvzaPoy3lVWHFExFyKNNJlQbGySUbor1bqa1Fc8CJCF/A==",
+    "System.DirectoryServices.Protocols/10.0.11": {
+      "sha512": "Q4DEPB0wfAMAM6zjCjioFQoDZGC6uCeAZMU30sdjMgVtKbSuSBjhASVlxVOTYmQKCdUqZInnDwZ3W/ZTWB4m3Q==",
       "type": "package",
-      "path": "system.directoryservices.protocols/10.0.8",
+      "path": "system.directoryservices.protocols/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -433,15 +411,15 @@
         "runtimes/win/lib/net8.0/System.DirectoryServices.Protocols.xml",
         "runtimes/win/lib/net9.0/System.DirectoryServices.Protocols.dll",
         "runtimes/win/lib/net9.0/System.DirectoryServices.Protocols.xml",
-        "system.directoryservices.protocols.10.0.8.nupkg.sha512",
+        "system.directoryservices.protocols.10.0.11.nupkg.sha512",
         "system.directoryservices.protocols.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Management/10.0.8": {
-      "sha512": "8GgwcQgAv1Xg0z4vkJ759AJOFbZpK17cX9+21SOHo+KXS+VUhwSBeFSzjDJyyaEiJwgQ0D5sGnfpEs2hjyZrmA==",
+    "System.Management/10.0.11": {
+      "sha512": "xyNn8KGbWI88LoUwg3rB8qcpFFST6dr8Ro/qS8GBu2GOwR0v7J82kVFHTiiPtvEKS79VbMTxs/sIKQ+Cq1Zs1g==",
       "type": "package",
-      "path": "system.management/10.0.8",
+      "path": "system.management/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -465,15 +443,15 @@
         "runtimes/win/lib/net8.0/System.Management.xml",
         "runtimes/win/lib/net9.0/System.Management.dll",
         "runtimes/win/lib/net9.0/System.Management.xml",
-        "system.management.10.0.8.nupkg.sha512",
+        "system.management.10.0.11.nupkg.sha512",
         "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/10.0.8": {
-      "sha512": "/ldVgSfImIBp6fLWS7sLH0BnmtFj0ZwGlZo4Xx2q0K3ZhJNDbW45kj2f6zPoC+L+BTINuHdMzTsopuwmkbgcNA==",
+    "System.Security.Cryptography.ProtectedData/10.0.11": {
+      "sha512": "PNoxCTPb+Tlux+GJyq4c89ddYdpioVSqfGx8pqOF6shCSKwUNNctXhQtRkCICjbJmGrJJsW8NY52kVYO/b8mlQ==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/10.0.8",
+      "path": "system.security.cryptography.protecteddata/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -500,15 +478,15 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.security.cryptography.protecteddata.10.0.8.nupkg.sha512",
+        "system.security.cryptography.protecteddata.10.0.11.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.ServiceProcess.ServiceController/10.0.8": {
-      "sha512": "/uCAiixsCUMBsxB7JTjE13RHvDJLq+BVL2toA+ItMMgJ6O07CtljbCoQF2RZ/9jO1RgC35FTGnQo5IAecE4JuQ==",
+    "System.ServiceProcess.ServiceController/10.0.11": {
+      "sha512": "khROyIQ3GAZy5MbCabfmlbvxf9nuvdveFP2XbRCteZ9Lq8OFEvImmrjV6acl1LegRu/9T6VMxi9Lr+KZu29VHg==",
       "type": "package",
-      "path": "system.serviceprocess.servicecontroller/10.0.8",
+      "path": "system.serviceprocess.servicecontroller/10.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -535,60 +513,18 @@
         "runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.xml",
         "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.dll",
         "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.xml",
-        "system.serviceprocess.servicecontroller.10.0.8.nupkg.sha512",
+        "system.serviceprocess.servicecontroller.10.0.11.nupkg.sha512",
         "system.serviceprocess.servicecontroller.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Text.Encoding.CodePages/10.0.8": {
-      "sha512": "WU6i/0KsH43ZeNCXVpm8JGwaj5Chs4Sup2Mwj9JSq62jzSyJQFqoarTpUhXQ+tXCXsUoVTHhxw+1ZhFm20rrmg==",
-      "type": "package",
-      "path": "system.text.encoding.codepages/10.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net10.0/System.Text.Encoding.CodePages.dll",
-        "lib/net10.0/System.Text.Encoding.CodePages.xml",
-        "lib/net462/System.Text.Encoding.CodePages.dll",
-        "lib/net462/System.Text.Encoding.CodePages.xml",
-        "lib/net8.0/System.Text.Encoding.CodePages.dll",
-        "lib/net8.0/System.Text.Encoding.CodePages.xml",
-        "lib/net9.0/System.Text.Encoding.CodePages.dll",
-        "lib/net9.0/System.Text.Encoding.CodePages.xml",
-        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
-        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "runtimes/win/lib/net10.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/net10.0/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/net9.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/net9.0/System.Text.Encoding.CodePages.xml",
-        "system.text.encoding.codepages.10.0.8.nupkg.sha512",
-        "system.text.encoding.codepages.nuspec",
         "useSharedDesignerContext.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "System.Diagnostics.EventLog >= 10.0.8",
-      "System.DirectoryServices.AccountManagement >= 10.0.8",
-      "System.Management >= 10.0.8",
-      "System.ServiceProcess.ServiceController >= 10.0.8",
-      "System.Text.Encoding.CodePages >= 10.0.8"
+      "System.Diagnostics.EventLog >= 10.0.11",
+      "System.DirectoryServices.AccountManagement >= 10.0.11",
+      "System.Management >= 10.0.11",
+      "System.ServiceProcess.ServiceController >= 10.0.11"
     ]
   },
   "packageFolders": {
@@ -645,23 +581,19 @@
         "dependencies": {
           "System.Diagnostics.EventLog": {
             "target": "Package",
-            "version": "[10.0.8, )"
+            "version": "[10.0.11, )"
           },
           "System.DirectoryServices.AccountManagement": {
             "target": "Package",
-            "version": "[10.0.8, )"
+            "version": "[10.0.11, )"
           },
           "System.Management": {
             "target": "Package",
-            "version": "[10.0.8, )"
+            "version": "[10.0.11, )"
           },
           "System.ServiceProcess.ServiceController": {
             "target": "Package",
-            "version": "[10.0.8, )"
-          },
-          "System.Text.Encoding.CodePages": {
-            "target": "Package",
-            "version": "[10.0.8, )"
+            "version": "[10.0.11, )"
           }
         },
         "imports": [
@@ -680,7 +612,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -957,17 +889,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1510",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PackageReference System.Text.Encoding.CodePages не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
-      "libraryId": "System.Text.Encoding.CodePages",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

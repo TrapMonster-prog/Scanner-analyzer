@@ -90,7 +90,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n14. Анализ журналов Windows");
+            Console.WriteLine("\nАнализ журналов Windows");
             Console.WriteLine(new string('-', 70));
 
             foreach (var line in output)

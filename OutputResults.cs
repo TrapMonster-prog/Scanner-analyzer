@@ -55,9 +55,6 @@ namespace Scanner_analyzer
                 {
                     15, new InformationPortScan()
                 },
-                {
-                    16, new InformationAllOutput()
-                },
             };
         }
 

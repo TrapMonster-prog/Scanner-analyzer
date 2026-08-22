@@ -54,23 +54,19 @@
           "dependencies": {
             "System.Diagnostics.EventLog": {
               "target": "Package",
-              "version": "[10.0.8, )"
+              "version": "[10.0.11, )"
             },
             "System.DirectoryServices.AccountManagement": {
               "target": "Package",
-              "version": "[10.0.8, )"
+              "version": "[10.0.11, )"
             },
             "System.Management": {
               "target": "Package",
-              "version": "[10.0.8, )"
+              "version": "[10.0.11, )"
             },
             "System.ServiceProcess.ServiceController": {
               "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "System.Text.Encoding.CodePages": {
-              "target": "Package",
-              "version": "[10.0.8, )"
+              "version": "[10.0.11, )"
             }
           },
           "imports": [
@@ -89,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
