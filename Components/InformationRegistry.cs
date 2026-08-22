@@ -52,7 +52,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n11. Разрешения ключей реестра");
+            Console.WriteLine("\nРазрешения ключей реестра");
             foreach (var line in regAclInfo)
                 Console.WriteLine(line);
         }
