@@ -18,7 +18,7 @@ namespace Scanner_analyzer.Components
             {
                 if (service.Status == ServiceControllerStatus.Running)
                 {
-                    Console.WriteLine($"Служба: {service.DisplayName}");
+                    Console.WriteLine($"[Служба] {service.DisplayName}");
                 }
             }
             Console.WriteLine();
