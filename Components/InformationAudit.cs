@@ -36,7 +36,7 @@
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n6. Настройки аудита");
+            Console.WriteLine("\nНастройки аудита");
             Console.WriteLine(auditOutput);
         }
     }
