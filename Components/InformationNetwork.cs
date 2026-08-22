@@ -96,7 +96,7 @@ namespace Scanner_analyzer.Components
         }
         public void OutputInformation()
         {
-            Console.WriteLine("\n7. Сетевые настройки");
+            Console.WriteLine("\nСетевые настройки");
             foreach (var line in netInfo)
                 Console.WriteLine(line);
         }
