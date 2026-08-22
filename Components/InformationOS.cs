@@ -30,7 +30,7 @@ namespace Scanner_analyzer.Components
 
         public void OutputInformation()
         {
-            Console.WriteLine("\n Информация об операционной системе");
+            Console.WriteLine("\nИнформация об операционной системе");
             Console.WriteLine($"ОС: {Caption}");
             Console.WriteLine($"Версия ядра: {Version}");
             Console.WriteLine($"Разрядность: {Architecture}");
